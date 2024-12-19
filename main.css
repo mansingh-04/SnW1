@@ -1,5 +1,5 @@
 body{
-    width: 100vw;
+    width: 100%;
     background-color: black;
     display: flex;
     flex-wrap: wrap;
@@ -604,9 +604,6 @@ nav{
     .about {
         font-size: 46px;
     }
-    .landing-page-single{
-        
-    }
     .onee {
         /* margin-right: 2.5em; */
         font-size: 65px;
@@ -670,6 +667,9 @@ nav{
         align-items: center;
         width: 15em;
         height: 4em;
+    }
+    .onboarding{
+        transform: scale(1.1);
     }
 
 
