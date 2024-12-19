@@ -5,7 +5,7 @@ body{
     flex-wrap: wrap;
 }
 .container{
-    width:100vw;
+    /* width:100vw; */
     height: auto;
     top: -2521px;
     left: -720px;
