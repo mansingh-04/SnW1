@@ -559,3 +559,186 @@ nav{
     text-decoration-skip-ink: none;
     color: #D6DDE6;        
 }
+
+
+
+@media (max-width: 1024px) {
+    .container {
+        padding: 16px;
+    }
+    .left-head {
+        font-size: 50px;
+    }
+    .fi, .se, .th, .fo {
+        font-size: 28px;
+    }
+    .landing-page-hero .tex {
+        font-size: 80px;
+    }
+    .landing-page-hero img {
+        width: 100%;
+        height: auto;
+    }
+    .personal-agency {
+        flex-direction: row;
+    }
+    .column-1, .column-2, .column-3 {
+        width: 100%;
+    }
+    .project-1 img,
+    .project-2 img,
+    .project-3 img,
+    .project-4 img,
+    .project-5 img,
+    .project-6 img,
+    .project-7 img,
+    .project-8 img,
+    .project-9 img {
+        width: 100%;
+        height: auto;
+    }
+    .portfolio-about {
+        flex-direction: row;
+    }
+    .about {
+        font-size: 46px;
+    }
+    .landing-page-single{
+        
+    }
+    .onee {
+        /* margin-right: 2.5em; */
+        font-size: 65px;
+        margin-bottom: 0.5em;
+    }
+    .twoo{
+        /* margin-right: 2em; */
+        font-size: 34px;
+        margin-bottom:0.5em;
+    }
+    .textcontent {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        /* padding-left: 10%; */
+
+    }
+    .Button {
+        /* margin-right: 9em; */
+        width: auto;
+        font-size: 25px;
+        padding-bottom: 4%;
+        line-height: 1.5;
+
+    }
+    .textt{
+        font-size: 3em;
+    }
+    .buttonFilledStandard{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 4vh;
+        width: 8em;
+        margin-left: 7.5em;
+    }
+    .submit{
+        
+        width: auto;
+        font-size: 25px;
+        /* font-weight: bold; */
+    }
+    .skip{
+        font-size: 25px;
+        margin-right: 1em;
+    }
+    .footer-text-left{
+        width: 100%;
+        font-size: 50px;
+    }
+    .footer-text-right{
+        font-size: 45px;
+        width: 100%;
+    }
+    .buttonlarge{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 15em;
+        height: 4em;
+    }
+
+
+}
+
+/* For Mobile Devices */
+@media (max-width: 768px) {
+    body {
+        flex-direction: column;
+    }
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .right-head {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .left-head {
+        font-size: 24px;
+    }
+    .fi, .se, .th, .fo {
+        font-size: 18px;
+    }
+    .landing-page-hero .tex {
+        font-size: 60px;
+    }
+    .landing-page-hero img {
+        width: 100%;
+        height: auto;
+    }
+    .personal-agency {
+        flex-direction: column;
+    }
+    .column-1, .column-2, .column-3 {
+        width: 100%;
+    }
+    .project-1 img,
+    .project-2 img,
+    .project-3 img,
+    .project-4 img,
+    .project-5 img,
+    .project-6 img,
+    .project-7 img,
+    .project-8 img,
+    .project-9 img {
+        width: 100%;
+        height: auto;
+    }
+    .portfolio-about {
+        flex-direction: column;
+    }
+    .about {
+        font-size: 28px;
+    }
+    .landing-page-single .onee {
+        font-size: 36px;
+    }
+    .textcontent {
+        width: 90%;
+    }
+    .Button {
+        width: 100%;
+        font-size: 14px;
+    }
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .page-link {
+        text-align: center;
+    }
+}
