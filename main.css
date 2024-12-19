@@ -562,7 +562,7 @@ nav{
 
 
 
-@media (max-width: 1024px) {
+@media (max-width: 1025px) {
     .container {
         padding: 16px;
     }
@@ -675,26 +675,40 @@ nav{
 }
 
 /* For Mobile Devices */
-@media (max-width: 768px) {
+@media (max-width: 601px) {
     body {
         flex-direction: column;
+        /* justify-content: center; */
     }
-    nav {
+    .container{
+        justify-content: center;
+    }
+    nav{
         flex-direction: column;
         align-items: flex-start;
     }
     .right-head {
         flex-direction: column;
         align-items: flex-start;
+        /* font-size: 67px; */
+        margin-top: 5%;
     }
     .left-head {
-        font-size: 24px;
+        font-size: 75px;
     }
     .fi, .se, .th, .fo {
-        font-size: 18px;
+        margin-left: 40px;
+        text-align: left;
+        transform: scale(1.5);
+        font-size: 25px;
+        
     }
     .landing-page-hero .tex {
-        font-size: 60px;
+        margin-left: 0;
+        text-align: center;
+        width: 100%;
+        padding-top: 15%;
+        font-size: 90px;
     }
     .landing-page-hero img {
         width: 100%;
@@ -702,9 +716,12 @@ nav{
     }
     .personal-agency {
         flex-direction: column;
+        margin-left: 40%;
+        height: auto;
     }
     .column-1, .column-2, .column-3 {
         width: 100%;
+        height: auto;
     }
     .project-1 img,
     .project-2 img,
@@ -716,23 +733,54 @@ nav{
     .project-8 img,
     .project-9 img {
         width: 100%;
+
         height: auto;
+    }
+    .project-1,
+    .project-2,
+    .project-3,
+    .project-4,
+    .project-5,
+    .project-6,
+    .project-7,
+    .project-8,
+    .project-9{
+        transform: scale(1.5);
+        margin-top: 25%;
+        padding: auto;
     }
     .portfolio-about {
         flex-direction: column;
+        justify-content: center;
     }
     .about {
-        font-size: 28px;
+        width: 100%;
+        font-size: 55px;
+        text-align: left;
     }
-    .landing-page-single .onee {
+    .onee{
         font-size: 36px;
+        transform: scale(2);
+        margin-left: 10%;
+    }
+    .twoo{
+        font-size: 40px;
+        margin-left: 10%;
     }
     .textcontent {
+        margin-bottom: 100%;
         width: 90%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .Button {
-        width: 100%;
-        font-size: 14px;
+        text-align: center;
+        margin-left:10% ;
+        font-size: 30px;
+        padding-bottom: 5%;
+        font-weight: bold;
     }
     .footer-container {
         flex-direction: column;
@@ -741,4 +789,5 @@ nav{
     .page-link {
         text-align: center;
     }
+    
 }
