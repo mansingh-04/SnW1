@@ -4,7 +4,7 @@ body{
     flex-wrap: wrap;
 }
 .container{
-    width:2200px;
+    width:100vw;
     height: auto;
     top: -2521px;
     left: -720px;
