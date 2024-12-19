@@ -176,34 +176,6 @@ nav{
     opacity: 0px;
     margin-bottom: 48px;
 }
-/* .project-1{
-    height: 379px;
-}
-.project-2{
-    height:290px;
-}
-.project-3{
-    height:472px;
-}
-.project-4{
-    height:472px;
-}
-.project-5{
-    height:379px;
-}
-.project-6{
-    height:290px;
-}
-.project-7{
-    height:290px;
-}
-.project-8{
-    height:472px;
-}
-.project-9{
-    height:379px;
-} */
-
 .project-1 img,.project-2 img,.project-3 img,.project-4 img,.project-5 img,.project-6 img,.project-7 img,.project-8 img,.project-9 img{
     width: 416px;
     gap: 0px;
@@ -614,12 +586,10 @@ nav{
         font-size: 46px;
     }
     .onee {
-        /* margin-right: 2.5em; */
         font-size: 65px;
         margin-bottom: 0.5em;
     }
     .twoo{
-        /* margin-right: 2em; */
         font-size: 34px;
         margin-bottom:0.5em;
     }
@@ -630,11 +600,9 @@ nav{
         width: 100%;
         height: auto;
         text-align: center;
-        /* padding-left: 10%; */
 
     }
     .Button {
-        /* margin-right: 9em; */
         width: auto;
         font-size: 25px;
         padding-bottom: 4%;
@@ -656,7 +624,6 @@ nav{
         
         width: auto;
         font-size: 25px;
-        /* font-weight: bold; */
     }
     .skip{
         font-size: 25px;
@@ -728,5 +695,18 @@ nav{
     }
     .page-link {
         text-align: center;
+    }
+    .personal-agency{
+        flex-direction: column;
+    }
+    .column-1,.column-2,.column-3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .project-1,.project-2,.project-3,.project-4,.project-5,.project-6,.project-7,.project-8,.project-9{
+        margin-bottom: 20%;
+        margin-top: 10%;
+        transform: scale(2);
     }
 }
